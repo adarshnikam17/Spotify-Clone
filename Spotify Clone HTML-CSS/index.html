@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <title>Spotify Clone </title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="home.png" class="gray-filtered">
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img src="search.png" class="gray-filtered">
+                            <span>Search</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img src="library.png" class="gray-filtered">
+                            <span>Your Library</span>
+                        </a>
+                    </li>
+<div style="height: 20px;"></div>
+                    <li>
+                        <a href="#">
+                            <img src="create-playlist.png" class="gray-filtered" style="border-radius: 3px;">
+                            <span>Create Playlist</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img src="liked-song.png" style="border-radius: 3px"; >
+                            <span>Liked Songs</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <hr style="width: 100%;">
+            <div style="height: 5px;"></div>
+            <div class="menu-playlist">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span>Chill Vibes</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>English Hit</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Deep focus</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>All out 2010s</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Today's Top Hit</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Holiday Vibes</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Rock Classic</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Mega Hit Mix</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Summer Vibes</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Peaceful Vibes</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="playlist-header">
+                <div class="playlist-top">
+                    <div class="playlist-arrow">
+                        <div class="playlist-container">
+                            <img src="chevron-left.png" alt="" class="grey-filtered">
+                        </div>
+                        <div class="playlist-container">
+                            <img src="chevron-right.png" alt="" class="grey-filtered">
+                        </div>
+                    </div>
+                    <div class="playlist-top-email">
+                        <button>Upgrade</button>
+                        <div class="playlist-container">
+                            <img src="profile-icon.png" alt="">
+                        </div>
+                    </div>
+                    <div class="playlist-content">
+                        <div class="playlist-cover">
+                            <img src="top-banner.jpeg" alt="">
+                        </div>
+                        <div class="playlist-info">
+                            <div class="playlist-public">Public Playlist</div>
+                            <div class="playlist-title">
+                                HIT SONGS ENGLISH
+                            </div>
+                            <div class="playlist-description">
+                                Listen to the best international songs right here!
+                            </div>
+                            <div class="playlist-stats">
+                                <img src="favicon.ico" width="24px" height="24px">
+                                <span>Spotify · </span>
+                                <span>222,595 likes ·</span>
+                                <span>97 songs, </span>
+                                <span style="color: rgb(212, 211, 211);">5 hr 29 min</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="playlist-song-container">
+                <div class="playlist-button">
+                    <div class="playlist-button-left">
+                        <div class="playlist-button-resume-pause">
+                            <img src="play-pause.png" alt="">
+                        </div>
+                        <div class="playlist-button-like">
+                            <img src="heart.png" alt="" class="gray-filtered">
+                        </div>
+                        <div class="playlist-button-download">
+                            <img src="download.png" alt="" class="gray-filtered">
+                        </div>
+                        <div class="playlist-button-three-dot">
+                            <img src="dot.png" alt="" class="gray-filtered">
+                        </div>
+                    </div>
+                        <div class="playlist-button-right">
+                            <div class="playlist-button-search">
+                                <img src="search.png" alt=""  class="gray-filtered">
+                            </div>
+                            <div class="playlist-button-order">
+                                Custom Order
+                            </div>
+                        </div>
+                </div>
+                <div class="playlist-songs">
+                    <table>
+                        <tr>
+                            <th>#</th>
+                            <th>Title</th>
+                            <th>Album</th>
+                            <th>Date added</th>
+                            <th><img src="time.png" alt="" class="gray-filtered"></th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td class="song-title">
+                                <div class="song-images">
+                                    <img src="song1.jpeg" alt="">
+                                </div>
+                                <div class="song-name-artist">
+                                    <div class="song-name">
+                                        Bones
+                                    </div>
+                                    <div class="song-artist">
+                                        Imagine Dragons
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="song-album">
+                                Mercury-Acts 1 & 2
+                            </td>
+                            <td class="song-date-added">Feb 13,2023</td>
+                            <td class="song-duration">2:45</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td class="song-title">
+                                <div class="song-images">
+                                    <img src="song2.jpeg" alt="">
+                                </div>
+                                <div class="song-name-artist">
+                                    <div class="song-name">
+                                        Until I Found You(Em Beihold Version)
+                                    </div>
+                                    <div class="song-artist">
+                                        Stephen Sanchez,Em Beihold
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="song-album">
+                                Until I Found You(Em Beihold Version)
+                            </td>
+                            <td class="song-date-added">Jan 9,2023</td>
+                            <td class="song-duration">2:56</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td class="song-title">
+                                <div class="song-images">
+                                    <img src="song5.jpeg" alt="">
+                                </div>
+                                <div class="song-name-artist">
+                                    <div class="song-name">
+                                        Die For You - Remix
+                                    </div>
+                                    <div class="song-artist">
+                                        The Weeknd, Ariana Grande
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="song-album">
+                                Die For You - Remix
+                            </td>
+                            <td class="song-date-added">Feb 27,2023</td>
+                            <td class="song-duration">3:53</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td class="song-title">
+                                <div class="song-images">
+                                    <img src="song3.jpeg" alt="">
+                                </div>
+                                <div class="song-name-artist">
+                                    <div class="song-name">
+                                        Unholy
+                                    </div>
+                                    <div class="song-artist">
+                                        Sam Smith,Kim Petras
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="song-album">
+                                Unholy
+                            </td>
+                            <td class="song-date-added">Oct 11,2022</td>
+                            <td class="song-duration">2:37</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td class="song-title">
+                                <div class="song-images">
+                                    <img src="song4.jpeg" alt="">
+                                </div>
+                                <div class="song-name-artist">
+                                    <div class="song-name">
+                                        Calm Down(With Selena Gomez)
+                                    </div>
+                                    <div class="song-artist">
+                                        Rema,Selena Gomez
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="song-album">
+                                Calm Down(With Selena Gomez)
+                            </td>
+                            <td class="song-date-added">Oct 11,2022</td>
+                            <td class="song-duration">3:59</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-player">
+        <div class="footer-player-left">
+            <div class="footer-player-left-song">
+                <div class="footer-player-left-song-image">
+                    <img src="song1.jpeg" alt="" width="45px" style="border-radius: 4px; ">
+                </div>
+                <div class="footer-player-left-song-name">Bones </div>
+                    <div class="footer-player-left-song-artist">Imagine Dragons</div>
+            </div>
+            <div class="footer-player-left-like">
+                <img src="heart.png" alt="" class="gray-filtered">
+            </div>
+        </div>
+        <div class="footer-player-middle">
+            <div class="footer-player-middle-button">
+                <img src="shuffle.png" alt="" class="gray-filtered">
+                <img src="previous.png" alt="" class="gray-filtered">
+                <div class="play-button">
+                <img src="play.png" alt="" class="gray-filtered"></div>
+                <img src="next.png" alt="" class="gray-filtered">
+                <img src="repeat.png" alt="" class="gray-filtered">
+            </div>
+            <div class="footer-player-middle-slider">
+                <div class="player-time">0:03</div>
+                <div class="player-slider">
+                    <input type="range" min="1" max="100" value="30">
+                </div>
+                <div class="player-time">2:45</div>
+            </div>
+        </div>
+        <div class="footer-player-right">
+            <div class="footer-player-right-button">
+                <img src="plus.png" alt="" class="gray-filtered">
+                <img src="queue.png" alt="" class="gray-filtered">
+                <img src="devices.png" alt="" class="gray-filtered">
+                <img src="volume-full.png" alt="" class="gray-filtered">
+                <div class="player-slider">
+                    <input type="range" min="1" max="100" value="30">
+                </div>
+                <img src="fullscreen.png" alt="" class="gray-filtered">
+                <div class="player-slider">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
